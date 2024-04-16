@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+.feed{
+    background-color: white;
+    width: 450px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Poner los elementos en una sola linea */
+.f-header {
+    display: flex;
+    padding-top: 10px;
+}
+
+.logohtml{
+    font-size:30px;
+    padding-left: 10px;
+}
+
+.titulos{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+
+}
+
+.titulos h1 {
+    font-size: 15px;
+}
+
+.menu{
+    font-size: 30px;
+    padding-left: 310px;
+}
+
+.f-img {
+    padding-top: 10px;
+}
+
+.f-icons {
+    display: flex;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.heart {
+    padding-right: 10px;
+}
+
+.comment{
+    padding-right: 10px;
+}
+
+.share{
+    padding-right: 10px;
+}
+
+.save{
+    padding-left: 300px;
+}
+
+.f-body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
